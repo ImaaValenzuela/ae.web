@@ -15,7 +15,7 @@ interface Match {
 }
 
 export const TournamentsView: React.FC = () => {
-  const top16 = MONTHLY_RANKING.slice(0, 16);
+  const top16 = MONTHLY_RANKING.slice(0, 18);
   const [activeTab, setActiveTab] = useState<'r16' | 'qf' | 'sf' | 'f'>('r16');
 
   // Standard initial seed setup for 16-player bracket:
