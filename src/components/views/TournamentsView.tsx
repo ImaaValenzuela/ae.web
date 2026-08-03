@@ -25,9 +25,9 @@ export const TournamentsView: React.FC = () => {
     // Octavos
     { id: 'm1', round: 'r16', player1: top16[0], player2: top16[15], winner: null },
     { id: 'm2', round: 'r16', player1: top16[7], player2: top16[8], winner: null },
-    { id: 'm3', round: 'r16', player1: top16[3], player2: top16[12], winner: null },
+    { id: 'm3', round: 'r16', player1: top16[3], player2: top16[17], winner: null },
     { id: 'm4', round: 'r16', player1: top16[4], player2: top16[11], winner: null },
-    { id: 'm5', round: 'r16', player1: top16[1], player2: top16[14], winner: null },
+    { id: 'm5', round: 'r16', player1: top16[16], player2: top16[14], winner: null },
     { id: 'm6', round: 'r16', player1: top16[6], player2: top16[9], winner: null },
     { id: 'm7', round: 'r16', player1: top16[2], player2: top16[13], winner: null },
     { id: 'm8', round: 'r16', player1: top16[5], player2: top16[10], winner: null },
@@ -135,7 +135,7 @@ export const TournamentsView: React.FC = () => {
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
           <span style={{
-            background: `linear-gradient(135deg, ${C.purple || '#9b51e0'}, #6f42c1)`,
+            background: `linear-gradient(135deg, ${C.purple}, #6f42c1)`,
             color: C.white, fontWeight: 900, fontSize: 12, padding: "4px 10px", borderRadius: 20,
             textTransform: "uppercase", letterSpacing: 1
           }}>
