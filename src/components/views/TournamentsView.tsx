@@ -23,20 +23,20 @@ export const TournamentsView: React.FC = () => {
   // M5: 2 vs 15 | M6: 7 vs 10 | M7: 3 vs 14 | M8: 6 vs 11
   const initialMatches: Match[] = [
     // Octavos
-    { id: 'm1', round: 'r16', player1: top16[0], player2: top16[15], winner: null },
-    { id: 'm2', round: 'r16', player1: top16[7], player2: top16[8], winner: null },
-    { id: 'm3', round: 'r16', player1: top16[3], player2: top16[17], winner: null },
-    { id: 'm4', round: 'r16', player1: top16[4], player2: top16[11], winner: null },
-    { id: 'm5', round: 'r16', player1: top16[16], player2: top16[14], winner: null },
-    { id: 'm6', round: 'r16', player1: top16[6], player2: top16[9], winner: null },
-    { id: 'm7', round: 'r16', player1: top16[2], player2: top16[13], winner: null },
-    { id: 'm8', round: 'r16', player1: top16[5], player2: top16[10], winner: null },
+    { id: 'm1', round: 'r16', player1: top16[0], player2: top16[15], winner: top16[0] },
+    { id: 'm2', round: 'r16', player1: top16[7], player2: top16[8], winner: top16[7] },
+    { id: 'm3', round: 'r16', player1: top16[3], player2: top16[17], winner: top16[17] },
+    { id: 'm4', round: 'r16', player1: top16[4], player2: top16[11], winner: top16[11] },
+    { id: 'm5', round: 'r16', player1: top16[16], player2: top16[14], winner: top16[16] },
+    { id: 'm6', round: 'r16', player1: top16[6], player2: top16[9], winner: top16[6] },
+    { id: 'm7', round: 'r16', player1: top16[2], player2: top16[13], winner: top16[13] },
+    { id: 'm8', round: 'r16', player1: top16[5], player2: top16[10], winner: top16[5] },
 
     // Cuartos
-    { id: 'qf1', round: 'qf', player1: null, player2: null, winner: null },
-    { id: 'qf2', round: 'qf', player1: null, player2: null, winner: null },
-    { id: 'qf3', round: 'qf', player1: null, player2: null, winner: null },
-    { id: 'qf4', round: 'qf', player1: null, player2: null, winner: null },
+    { id: 'qf1', round: 'qf', player1: top16[0], player2: top16[7], winner: null },
+    { id: 'qf2', round: 'qf', player1: top16[17], player2: top16[11], winner: null },
+    { id: 'qf3', round: 'qf', player1: top16[16], player2: top16[6], winner: null },
+    { id: 'qf4', round: 'qf', player1: top16[13], player2: top16[5], winner: null },
 
     // Semis
     { id: 'sf1', round: 'sf', player1: null, player2: null, winner: null },
